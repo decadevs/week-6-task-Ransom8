@@ -8,6 +8,8 @@
     tools:context=".SecondActivity"
     android:id="@+id/secondActivity">
 
+
+    <!--Below is are the UI Elements of the second Activity-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -50,6 +52,8 @@
         app:layout_constraintVertical_bias="0.057"
         app:srcCompat="@drawable/beach_time" />
 
+
+    <!--Below are the text views that displays the information the user entered-->
     <TextView
         android:id="@+id/genderView"
         android:layout_width="wrap_content"
@@ -64,16 +68,16 @@
         app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.571" />
 
     <TextView
         android:id="@+id/editTextPhone2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
         android:ems="10"
         android:fontFamily="@font/coiny"
         android:importantForAutofill="no"
+        android:textAlignment="center"
         android:textColor="#B61A1A"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -82,14 +86,14 @@
         app:layout_constraintHorizontal_bias="0.21"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.474" />
+        app:layout_constraintVertical_bias="0.449" />
 
     <TextView
         android:id="@+id/editTextTextEmailAddress2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
         android:ems="10"
+        android:textAlignment="center"
         android:textColor="#43A047"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -98,7 +102,7 @@
         app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.531" />
+        app:layout_constraintVertical_bias="0.514" />
 
     <TextView
         android:id="@+id/editTextTextPersonName3"
@@ -114,6 +118,6 @@
         app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415" />
+        app:layout_constraintVertical_bias="0.386" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

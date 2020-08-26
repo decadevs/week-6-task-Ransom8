@@ -9,6 +9,8 @@
     android:id="@+id/mainActivity"
     tools:context=".MainActivity">
 
+
+    <!--Below is are the UI Elements of the first Activity-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -68,6 +70,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.276" />
 
+
+    <!--Below are the text views that take the information from the user-->
     <EditText
         android:id="@+id/editTextPersonName"
         android:layout_width="wrap_content"
@@ -145,6 +149,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextEmailAddress" />
 
+
+    <!--This button handles submitting the profile information, calling the new activity and
+        passing the values of the profile information to it-->
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"

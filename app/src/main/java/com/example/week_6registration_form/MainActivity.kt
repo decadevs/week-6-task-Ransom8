@@ -2,7 +2,6 @@ package com.example.week_6registration_form
 
 import android.content.Intent
 import android.os.Bundle
-import android.provider.ContactsContract
 import android.widget.EditText
 import android.widget.Spinner
 import android.widget.Toast
@@ -54,8 +53,10 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "All Fields are Required!!", Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             } else if (!checkEmailField(email)) {
+                Toast.makeText(this, "Enter a valid Email", Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             } else if (!checkPhoneNumField(number)) {
+                Toast.makeText(this, "Enter a valid Nigerian Number", Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             } else {
                 val intent = Intent(this, SecondActivity::class.java).also {
