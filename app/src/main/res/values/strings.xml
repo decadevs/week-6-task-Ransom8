@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Week_6 Registration_Form</string>
+    <string name="summerTrip">Book Your Summer Experience!!</string>
+    <string name="nameField">Enter your name</string>
+    <string name="Phone">Phone number</string>
+    <string name="Email">Email address</string>
+    <string name="Button">Reserve Your Spot</string>
+    <string name="Name">Name:</string>
+    <string name="Tel">Tel:</string>
+    <string name="mail">Email:</string>
+    <string name="Sex">Sex:</string>
+    <string name="backgroundsvg">backgroundSvg</string>
+    <string name="beachtime">beachTime</string>
+    <string name="plate">plate</string>
+    <string name="summer">summerbackground</string>
+    <string name="luggage">luggage</string>
+
+    <string-array name="sexGroup">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Unspecified</item>
+    </string-array>
+</resources>
